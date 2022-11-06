@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Now Book It application">
+    <test name="UI Test">
+        <classes>
+            <class name="com.nowbookit.testng.runner.RunCucumberTest"/>
+        </classes>
+    </test>
+</suite>

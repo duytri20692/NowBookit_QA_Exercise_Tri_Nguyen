@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Now Book It application]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="UI Test(failed)" verbose="0">
+    <classes>
+      <class name="com.nowbookit.testng.runner.RunCucumberTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.nowbookit.testng.runner.RunCucumberTest -->
+    </classes>
+  </test> <!-- UI Test(failed) -->
+</suite> <!-- Failed suite [Test Now Book It application] -->
